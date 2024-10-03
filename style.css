@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFEEF3;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  ul {
+    flex-direction: column;
+  }
+}
+
+main .banner {
+  width: 100vw;
+}
+@media (max-width: 800px) {
+  main .banner {
+    display: none;
+  }
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+caixa1 {
+  width: 300vw;
+}/*# sourceMappingURL=style.css.map */
